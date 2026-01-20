@@ -3,59 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - OneChess Game</title>
+    <title>Privacy Policy - Chess Elite</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
-        .container { background-color: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
-        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-        h2 { color: #2980b9; margin-top: 30px; }
-        p { margin-bottom: 15px; }
-        .highlight { background-color: #e8f4fd; padding: 15px; border-left: 5px solid #3498db; margin: 20px 0; border-radius: 4px; }
-        footer { text-align: center; margin-top: 40px; font-size: 0.9em; color: #7f8c8d; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-bottom: 15px;
+        }
+        .last-updated {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        .highlight {
+            background-color: #f1f8ff;
+            padding: 15px;
+            border-left: 5px solid #007bff;
+            border-radius: 4px;
+        }
+        .contact-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p><strong>Effective Date:</strong> January 20, 2026</p>
-        <p>Welcome to <strong>OneChess Game</strong>. We are committed to protecting your privacy and providing a secure gaming experience. This Privacy Policy explains how we handle information in our application.</p>
-
-        <div class="highlight">
-            Note: We do NOT collect or store your personal identity directly on our servers. All identity management is handled through verified Google services.
-        </div>
-
+        <p class="last-updated">Last Updated: January 20, 2026</p>
+        <p><strong>Chess Elite</strong> is built as a Free app. This SERVICE is provided by <strong>Vling App
+                Development</strong> at no cost and is intended for use as is.</p>
+        <p>This page is used to inform visitors regarding our policies with the collection, use, and disclosure of
+            Personal Information if anyone decided to use our Service.</p>
+        <p>If you choose to use our Service, then you agree to the collection and use of information in relation to this
+            policy. The Personal Information that we collect is used for providing and improving the Service. We will
+            not use or share your information with anyone except as described in this Privacy Policy.</p>
         <h2>1. Information Collection and Use</h2>
-        <p>For a better experience while using our Service, we may require you to provide us with certain personally identifiable information (via Google Play Games Services). The information that we request will be retained on your device and is not collected by us in any way.</p>
-
-        <h2>2. Third-Party Services</h2>
-        <p>The app does use third-party services that may collect information used to identify you. Links to the privacy policy of third-party service providers used by the app:</p>
+        <p>For a better experience, while using our Service, we may require you to provide us with certain personally
+            identifiable information (Anonymous Identifiers). The information that we request will be retained on our
+            device and is not collected by us in any way personally.</p>
+        <p>The app does use third-party services that may collect information used to identify you:</p>
         <ul>
-            <li><a href="https://www.google.com/policies/privacy/" target="_blank">Google Play Services</a></li>
-            <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank">AdMob</a></li>
-            <li><a href="https://firebase.google.com/support/privacy" target="_blank">Google Analytics for Firebase</a></li>
-            <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Crashlytics</a></li>
+            <li><strong>Google Play Services</strong></li>
+            <li><strong>AdMob</strong> (Advertising IDs for personalized ads)</li>
+            <li><strong>Firebase Authentication</strong> (Anonymous UID for multiplayer sessions)</li>
+            <li><strong>Firebase Realtime Database</strong> (Temporary game state data)</li>
+            <li><strong>Firebase Crashlytics</strong> (Crash reporting and stability data)</li>
         </ul>
-
-        <h2>3. Multiplayer and Game Data</h2>
-        <p>In Online Multiplayer mode, your move data and game-room status are temporarily stored on <strong>Firebase Realtime Database</strong>. This data is used solely to synchronize the game between players. Once the game ends or a room is abandoned, this data is automatically deleted from our cloud database.</p>
-
-        <h2>4. Achievements and Leaderboards</h2>
-        <p>We use <strong>Google Play Games Services</strong> to manage achievements and global rankings. Your player profile, scores, and badges are managed through your Google Account. We do not have access to your Google Account password or private information.</p>
-
-        <h2>5. Advertising</h2>
-        <p>This app uses <strong>AdMob</strong> to show advertisements. AdMob may use device identifiers to show personalized ads. You can manage these settings in your Google Account's ad preferences.</p>
-
+        <div class="highlight">
+            <h2>2. Account Deletion Policy</h2>
+            <p>In accordance with Google Play's Data Deletion policy, we provide clear options for users to manage their
+                data:</p>
+            <ul>
+                <li><strong>Anonymous Accounts:</strong> Our app uses Firebase Anonymous Authentication. This creates a
+                    technical identifier (UID) rather than a personal account. Since no personal emails or phone numbers
+                    are linked, there is no persistent "identity".</li>
+                <li><strong>How to Delete:</strong> You can request deletion of any session data associated with your
+                    Anonymous UID directly within the app's settings or by clearing the app data in your device
+                    settings.</li>
+                <li><strong>Automated Deletion:</strong> All online game room data is automatically deleted from our
+                    servers immediately after a match concludes or when players disconnect.</li>
+                <li><strong>Web-based Request:</strong> If you wish to request manual deletion of any data associated
+                    with your technical UID, please contact us at the email provided below.</li>
+            </ul>
+        </div>
+        <h2>3. Log Data</h2>
+        <p>We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and
+            information (through third-party products) on your phone called Log Data. This Log Data may include
+            information such as your device Internet Protocol (“IP”) address, device name, operating system version, the
+            configuration of the app when utilizing our Service, the time and date of your use of the Service, and other
+            statistics.</p>
+        <h2>4. Cookies</h2>
+        <p>Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These
+            are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+            This Service does not use these “cookies” explicitly. However, the app may use third-party code and
+            libraries that use “cookies” to collect information and improve their services.</p>
+        <h2>5. Service Providers</h2>
+        <p>We may employ third-party companies and individuals due to the following reasons:</p>
+        <ul>
+            <li>To facilitate our Service;</li>
+            <li>To provide the Service on our behalf;</li>
+            <li>To perform Service-related services; or</li>
+            <li>To assist us in analyzing how our Service is used.</li>
+        </ul>
         <h2>6. Security</h2>
-        <p>We value your trust in providing us your information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet is 100% secure and reliable.</p>
-
+        <p>We value your trust in providing us your Personal Information, thus we are striving to use commercially
+            acceptable means of protecting it. But remember that no method of transmission over the internet, or method
+            of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.</p>
         <h2>7. Children’s Privacy</h2>
-        <p>These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13.</p>
-
-        <h2>8. Contact Us</h2>
-        <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at: <strong>vishallingayat0924@gmail.com</strong></p>
+        <p>These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable
+            information from children under 13. In the case we discover that a child under 13 has provided us with
+            personal information, we immediately delete this from our servers.</p>
+        <h2>8. Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically
+            for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+        <div class="contact-info">
+            <h2>9. Contact Us</h2>
+            <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:</p>
+            <p><strong>Email:</strong> vlingappdev@example.com</p>
+            <p><strong>Website:</strong> Your GitHub Profile Link</p>
+        </div>
     </div>
-    <footer>
-        &copy; 2026 OneChess Game. All rights reserved.
-    </footer>
 </body>
 </html>
